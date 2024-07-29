@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ServicemanagerComponent } from './servicemanager/servicemanager.component';
+import { VehicleunderserviceComponent } from './vehicleunderservice/vehicleunderservice.component';
 
 
 
 @NgModule({
   declarations: [
-    ServicemanagerComponent
+    VehicleunderserviceComponent
   ],
   imports: [
     CommonModule

@@ -56,7 +56,7 @@ export class LoginComponent
     let decodedToken=this.authService.decodeToken();
     console.log(decodedToken+"|||"+decodedToken.role);
     if(decodedToken.role==='Admin'){ this.router.navigate(['/admin']);}
-    else{this.router.navigate(['/servicemanager']);}
+    else{this.router.navigate(['/serviceadvisor']);}
   }
 
 }
