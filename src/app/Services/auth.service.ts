@@ -37,6 +37,7 @@ export class AuthService
   decodeToken(): any {
     let token=localStorage.getItem('token');
     if(token){return jwtDecode(token);}
+    else return undefined;
   }
 }
 
